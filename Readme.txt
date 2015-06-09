@@ -1,0 +1,1 @@
+Everything in these folders will be copied to the Data folder at the end of a build. This is where default assets for things like Injections will go.

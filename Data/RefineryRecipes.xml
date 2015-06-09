@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCraftData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CraftData>
+		<Key>pellets</Key>
+		<CraftedName>Plastic Pellet</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Biomass Growth</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Raw plastic in pellet form suitable for crafting.</Description>
+	</CraftData>
+	<CraftData>
+		<Key>HEC fuel</Key>
+		<CraftedName>High Energy Composite Fuel</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Biomass Growth</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Empty Fuel Canister</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Solid fuel containing oxydizer. Highly volatile. Usable as high intensity heat source or rocket fuel.</Description>
+	</CraftData>
+</ArrayOfCraftData>

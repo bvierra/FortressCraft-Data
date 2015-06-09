@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Solar Panel</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Solar Panel</Text>
+				</Title>
+				<Icon>
+					<Name>Solar Panel</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Solar Panels are the simplest and easiest of the renewable power sources available to you. To use them is straightforward; just build it where it has unfettered access to the sky. Solar Panels follow all normal power generation rules; they can deliver power to a Power Storage Block, Laser Energy Transmitter or a power-using machine. Useful for 12 minutes in every 24 (Unless in Easy Mode, which allows 100% usage), they are at their peak at midday, dropping to 50% efficiency at sunset. Solar Panel can provide an excellent choice for a remote Tier-2 base, due to their self-contained nature.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

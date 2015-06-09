@@ -1,0 +1,35 @@
+<MaterialEntry>
+	<Name>Laser Energy Transmitter</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Laser Energy Transmitter</Text>
+				</Title>
+				<Icon>
+					<Name>Laser Energy Transmitter</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Laser Energy Transmitters (or LETs) are the backbone of your power delivery network.</Text>
+				</Paragraph>
+				<Icon>
+					<Name>Laser Energy Transmitter MK2</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>LETs come in a variety of upgrades. Generally speaking, the higher tiers of LET will allow you to transmit more power, more quickly. All current tiers of LET are limited to a maximum transmission range of 64.</Text>
+				</Paragraph>
+				<Header>
+					<Text>Tricks and Tips.</Text>
+				</Header>
+				<Paragraph><Text>-Higher Tiers are significantly better. Upgrade whenever you can.</Text></Paragraph>
+				<Paragraph><Text>-Emitters touching multiple Power Storage Blocks will charge faster.</Text></Paragraph>
+				<Paragraph><Text>-For cheap, unbuffered power, simply aim a LET an another one.</Text></Paragraph>
+				<Paragraph><Text>-Many machines can be powered straight from LETs, but this gives no margin for power dropouts.</Text></Paragraph>
+				<Paragraph><Text>-Use in conjunction with Power Storage Blocks to smooth out hiccups in power delivery.</Text></Paragraph>
+				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

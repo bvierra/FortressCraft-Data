@@ -1,0 +1,23 @@
+<MaterialEntry>
+	<Name>Copper Bar</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Copper Bar</Text>
+				</Title>
+				<Icon>
+					<Name>Copper Bar</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Icon>
+					<Name>Copper Ore</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Copper Bars are generally used in Tier-1 machines with electrical components. They are crafted from Copper Ore, which is found at depths between -160 and 0, or something.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

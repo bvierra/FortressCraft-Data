@@ -1,0 +1,23 @@
+<MaterialEntry>
+	<Name>Iron Bar</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Iron Bar</Text>
+				</Title>
+				<Icon>
+					<Name>Iron Bar</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Icon>
+					<Name>Iron Ore</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Iron Bars are generally used in Tier-1 machines requiring a study construction. They are crafted from Iron Ore, which is found at depths between -160 and -50, or something.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

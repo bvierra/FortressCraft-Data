@@ -1,0 +1,23 @@
+<MaterialEntry>
+	<Name>Matter Mover</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Matter Mover</Text>
+				</Title>
+				<Icon>
+					<Name>Matter Mover</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Matter Movers are a high-speed, high-energy method of moving resources around your mining operation. Utilising a massive 64 energy/item, Matter Movers can mattermit 300 items a minute a distance of up to 64m. They are simple in usage; supply with power as you would any other machine, and place them touching (but not facing) a Storage Hopper, facing towards a second Storage Hopper. The cost to mattermit is fixed, and not (currently) dependent on the item being transported, nor the distance.</Text>
+				</Paragraph>				
+				<Header><Text>Alternatives</Text></Header>
+				<Paragraph>
+					<Text>If you need a low-power method of moving resources, conveyors or transport pipes are the best solution. For bulk transportation, try using one of the minecart systems available</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

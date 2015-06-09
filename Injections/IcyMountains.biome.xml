@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BiomeEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<name>Mountains</name>
+	<categories>
+		<category>
+			<name>Trees</name>
+			<injections>
+				<injection>Trees/Alpine Fir</injection>
+			</injections>
+		</category>
+		<category>
+			<name>Boulders</name>
+			<injections>
+			</injections>
+		</category>		
+		<category>
+			<name>Ruins</name>
+			<injections>
+			</injections>
+		</category>
+	</categories>
+</BiomeEntry>

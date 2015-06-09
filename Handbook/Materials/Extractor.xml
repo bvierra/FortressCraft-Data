@@ -1,0 +1,62 @@
+<MaterialEntry>
+	<Name>Ore Extractor</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Ore Extractor</Text>
+				</Title>
+				<Icon>
+					<Name>Ore Extractor</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>The Ore Extractor is your go to machine for harvesting resources. When you dig using your build gun, each attempt at mining a block of ore with right click subtracts from the total resources available in that ore block. This will occasionally generate an ore, but produces a lot of rubble.</Text>
+				</Paragraph>
+				<HelpImage>
+					<Name>ExtractorExample</Name>
+				</HelpImage>
+				<Paragraph>
+					<Text>To automate this process, use an Ore Extractor. You can place the extractor up against an ore block and it will consume energy to extract resources automatically. There are two ways to directly interact with the extractor. The first and most important when first placing the extractor is to give it energy with 'e' so that it will start working. After some time the extractor will collect a piece of the resource in its inventory. Pressing 'q' will pop out the collected resources from the top of the extractor for you to collect. The information panel in the bottom left corner tells you everything about the extractor when you point at it. The starting extractors are no more resource efficient than super digging but are automated which can enable more resource collecting than you could manage otherwise.</Text>
+				</Paragraph>
+			</Paragraphs>
+		</Page>				
+		<Page>
+			<Paragraphs>
+				<Paragraph>
+					<Text>The extractor requires a fair amount of energy to produce ore. It has an internal storage of 500 energy which is a little over two full suit's worth of energy before you get the suit battery upgrade so you will need to make multiple trips to fill it up. A fully charged extractor will collect 33 ore before running out of energy. If it's internal storage of 25 ore fills up however the extractor will cease mining until it has been emptied with 'q'.</Text>
+				</Paragraph>
+				<Paragraph>
+					<Text>The Ore Extractor mines 2 ores per minute, at 10% efficiency. This means that for each ore it digs up, a potential 10 mineable ore is destroyed.</Text>
+				</Paragraph>
+				
+				<Header>
+					<Text>Upgrading Extractors</Text>
+				</Header>
+				<Paragraph>
+					<Text>The base Ore Extractor is a useful piece of machinery, but is far from its maximum power. The extractor can be upgraded with two parts: New motors and new cutter heads. If you have an upgrade in your inventory which you want to install, press ‘r’ when you have the extractor selected. It will automatically install the best upgrades you have available.</Text>
+				</Paragraph>
+
+				<Header>
+					<Text>Motor</Text>
+				</Header>
+				<Paragraph>
+					<Text>A new motor increases the speed at which the excavator drill head mines, which means you will receive more ore per minute. The increased speed comes at higher power cost, but this is significantly less than having an equivalent amount of excavators running in parallel. </Text>
+				</Paragraph>
+				<Paragraph>
+					<Text>Motor upgrades double the output of the extractor, and this is a cumulative bonus. The current highest tier drill motor, the Antimatter Drill Motor, increases production by 3200%. But this motor requires massive amounts of resources to produce, and drains enormous amounts of power!</Text>
+				</Paragraph>
+			</Paragraphs>
+		</Page>
+		<Page>
+			<Paragraphs>
+				<Header>
+					<Text>Cutter Head</Text>
+				</Header>
+				<Paragraph>
+					<Text>Upgrading the cutter head increases the efficiency at which the excavator extracts ores. This means that it will be able to retrieve more ore from a vein over its lifetime. Besides the efficiency upgrade, the new cutter head will also allow the excavator to dig harder materials, which the base cutter head may not be able to cut into at all.</Text>
+				</Paragraph>
+			</Paragraphs>
+		</Page>
+	</Pages>
+</MaterialEntry>

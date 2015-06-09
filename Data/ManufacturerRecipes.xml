@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCraftData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CraftData>
+		<Key>solar</Key>
+		<Category>power</Category>
+		<Tier>1</Tier>
+		<CraftedName>Solar Panel</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>125</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Collects a low amount of energy during the day</Description>
+		<Hint>Requires sky clearance!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>ai mover</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>AI Mover Control</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically moves resources between hoppers</Description>
+		<Hint>Cheap and nasty, but reliable*
+*Not that reliable really.</Hint>
+	</CraftData>
+	
+	<CraftData>
+		<Key>PTG</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Pyrothermic Generator</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Burns resources for energy.</Description>
+		<Hint>Must be connected to a Storage Hopper</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Steel Bar</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Low Grade Steel Bar</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+		<Description>Low-grade steel alloy</Description>
+		<Hint>Crafting Ingredient for more advanced machines</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>BFL</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>BFL-9000</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Massive horizontal mining laser</Description>
+		<Hint>Use to bore out straight tunnels</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>laser</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Laser Energy Transmitter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Transmit power at a low rate</Description>
+		<Hint>Maximum range : 64</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>PSB</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Power Storage Block</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Stores up to 250 power</Description>
+		<Hint>Connect to machines to power them</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>PSB mk2</Key>
+		<Category>power</Category>
+		<Tier>1</Tier>
+		<CraftedName>Power Storage MK2</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Stores up to 1,500 power</Description>
+		<Hint>Connect to machines to power them</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>PSB mk3</Key>
+		<Category>power</Category>
+		<Tier>2</Tier>
+		<CraftedName>Power Storage MK3</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>32</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>64</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Stores up to 5000 power</Description>
+		<Hint>Connect to machines to power them</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>key</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Ore Extractor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically extracts ore</Description>
+		<Hint>Connect to Hoppers for automatic storage</Hint>
+	</CraftData>
+
+	<CraftData>
+		<Key>CPH</Key>
+		<Category>power</Category>
+		<Tier>1</Tier>
+		<CraftedName>Central Power Hub</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>500</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>500</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>500</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>The centre of your base's power network!</Description>
+		<Hint>Combines combustion and solar energy</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>hopper</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>StorageHopper</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Stores upto 100 resources</Description>
+		<Hint>Can be connected to other machines for automation</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>hoppermini</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>LogisticsHopper</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Stores upto 10 resources.</Description>
+		<Hint>Disperses resources very slowly.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>torch</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Torch</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Coal Ore</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Low grade heating and lighting.</Description>
+		<Hint>Caution : Fire is hot!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>reinforced rock</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Reinforced Rock</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>A slightly stronger wall for your base.</Description>
+		<Hint>Caution : Uses up 10 Rough Hewn Rock!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>reinforced wood</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Reinforced Wood</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Wooden Planks</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>A slightly stronger wall for your base.</Description>
+		<Hint>Caution : Uses up Wooden Planks!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>windows</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Window</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Wooden Planks</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>A weak window, has wooden frames</Description>
+		<Hint>Uses up wooden planks!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>chevron</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Chevron Sign</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Use this to mark off dangerous areas.</Description>
+		<Hint>Caution : Uses up 1 RoughHewnRock!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>yellow chevron</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Chevron Sign 2</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Use this to mark off dangerous areas.</Description>
+		<Hint>Caution : Uses up 1 RoughHewnRock!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>wooden planks</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Wooden Planks</CraftedName>
+		<CraftedAmount>5</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tree Trunk</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Decorative wooden blocks</Description>
+		<Hint>Pretty!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>Geiger</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Geiger</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Ruined heavy chitin</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Ruined light chitin</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Alien-esque wall decoration</Description>
+		<Hint>Uses up some of that useless chitin!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
+		<Key>white canvas</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>White Canvas</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<Description>Test Recipe, research cost but no project</Description>
+		<Hint>Caution : Uses up 10 Rough Hewn Rock!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>red canvas</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Red Canvas</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>black box</Research>
+		</ResearchRequirements>		
+		<Description>Test Recipe, research project but no cost</Description>
+		<Hint>Caution : Uses up 10 Rough Hewn Rock!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>blue canvas</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Blue Canvas</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Rough Hewn Rock</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>black box</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Test Recipe, research cost and project</Description>
+		<Hint>Caution : Uses up 1 RoughHewnRock!</Hint>
+	</CraftData>	
+	<CraftData>
+		<Key>green canvas</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Green Canvas</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Leaves</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ScanRequirements>
+			<Scan>
+				<type>16</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>
+		<Description>Test Recipe, scan requirement</Description>
+		<Hint>It's actually just white canvas with leaves rubbed on</Hint>
+	</CraftData>		
+	<CraftData>
+		<Key>matter mover</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Matter Mover</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>20</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Move Resources between StorageHoppers</Description>
+		<Hint>Rapid Transfer, high Energy cost</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>ore smelter</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Ore Smelter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Smelts resources into Bars</Description>
+		<Hint>T2 item - use the one at your base to start with!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>forced induction</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Forced Induction</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>25</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>25</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>mining upgrade 2</Research>
+		</ResearchRequirements>
+		<Description>Increases power usage and smelting rate.</Description>
+		<Hint>Place on top of your Ore Smelter!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>forced induction</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>T2 Forced Induction</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>50</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>50</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>25</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Forced Induction</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>mining upgrade 5</Research>
+		</ResearchRequirements>
+		<Description>Increases power usage and smelting rate.</Description>
+		<Hint>Place on top of your Ore Smelter!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>forced induction</Key>
+		<Category>mining</Category>
+		<Tier>3</Tier>
+		<CraftedName>T3 Forced Induction</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>25</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>25</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>T2 Forced Induction</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>mining upgrade 5</Research>
+		</ResearchRequirements>
+		<Description>Increases power usage and smelting rate.</Description>
+		<Hint>Place on top of your Ore Smelter!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>turret 1</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Pop Up Turret</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Basic Energy-based defence.</Description>
+		<Hint>Do not place on top of your Ore Smelter!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>conveyor</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Conveyor Belt</CraftedName>
+		<CraftedAmount>5</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Transfers materials to and from Hoppers</Description>
+		<Hint>Slow but efficient</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>conveyor filter</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Conveyor Belt Filter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>3</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Filters the transfer of materials</Description>
+		<Hint>Place between hoppers and conveyors</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>conveyor mk2</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Transport Pipe</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Transfers materials to and from Hoppers</Description>
+		<Hint>Can be used on walls and ceilings</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>conveyor mk2 filter</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Transport Pipe Filter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Filters the transfer of materials</Description>
+		<Hint>Can be used on walls and ceilings</Hint>
+	</CraftData>
+		<CraftData>
+		<Key>conveyorturntable</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Conveyor Turntable</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically rotates after traferring items</Description>
+		<Hint>Use to split conveyor lines</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>t1_stamper</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Stamper Plant</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically converts Bars into Plates</Description>
+		<Hint>A useful start when automating</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>t1_extruder</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Extrusion Plant</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Plate</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically converts Bars into Wire</Description>
+		<Hint>A useful start when automating</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>t1_coiler</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Coiler Plant</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Plate</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically converts Wire into Coils</Description>
+		<Hint>A useful start when automating</Hint>
+	</CraftData>
+		<CraftData>
+		<Key>t1_pcb_assembler</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>PCB Assembling Plant</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Plate</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Coil</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Automatically converts Bars into Wire</Description>
+		<Hint>A useful start when automating</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>hydrojet cutter</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Hydrojet Cutter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Snow</Name>
+				<Amount>50</Amount><!-- Send the player on an easy early-game treasure hunt -->
+			</CraftCost>			
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<Description>Upgrade module for the manufacturing plant</Description>
+		<Hint>Allows creation of suit upgrades</Hint>
+	</CraftData>	
+	<CraftData>
+		<Key>solar cell</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Solar Cell MK1</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Increases Suit Solar Efficiency</Description>
+		<Hint>Suit Item! You only need 1</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>suit heater</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Suit Heater MK1</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>64</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Increases Suit Heating Power</Description>
+		<Hint>Suit Item! You only need 1</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>power pack</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Suit Power Pack MK1</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Increases Suit Power Capacity</Description>
+		<Hint>Suit Item! You only need 1</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>head light</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Suit Headlight MK1</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Increases Suit Headlight Efficiency</Description>
+		<Hint>Suit Item! You only need 1</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>build gun mk2</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Build Gun V2</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Can dig through more materials than your starting build gun. Can dismantle Ore Smelters and Manufacturing Plants</Description>
+		<Hint>Suit Item! You only need 1!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Toxic Particle Filter</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Toxic Particle Filter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Crafting this allows your suit to filter out dangerous and hallucinogenic toxins from the atmosphere.</Description>
+		<Hint>Use this to progress past the poison-spore filled caves</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>jetpack</Key>
+		<Category>upgrades</Category>
+		<Tier>2</Tier>
+		<CraftedName>Jet Pack</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Low Grade Steel Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Plastic Pellet</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>High Energy Composite Fuel</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+			<Research>biomass</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>Allows the use of jet thrust to fly over short ranges. Uses large amounts of power. Activate with 'J'.</Description>
+		<Hint>Suit Item! You only need 1!</Hint>
+	</CraftData>	
+	<CraftData>
+		<Key>laser mk2</Key>
+		<Category>power</Category>
+		<Tier>1</Tier>
+		<CraftedName>Laser Energy Transmitter Mk II</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>65</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>65</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Transmits power upto 64m</Description>
+		<Hint>Tier 2 version transmits more power!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>laser mk3</Key>
+		<Category>power</Category>
+		<Tier>2</Tier>
+		<CraftedName>Laser Energy Transmitter Mk III</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>185</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>95</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>10x as rapid energy transfer as T2.</Description>
+		<Hint>The largest single-block energy transmitter.</Hint>
+	</CraftData>
+	
+	<CraftData>
+		<Key>wooden storage crate</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Storage Crate</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Wooden Planks</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<Description>A simple wooden crate that can store a small amount of items. Cannot be automated.</Description>
+		<Hint>Connect multiple crates together to increase available inventory space.</Hint>
+	</CraftData>
+		
+	<CraftData>
+		<Key>advanced machine block</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>Advanced Machine Block</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Low Grade Steel Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>crystal</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Common component for tier 3 machinery</Description>
+		<Hint>Can also be used for construction.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>refinery controller</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>Refinery Controller</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Advanced Machine Block</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>20</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>40</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>biomass</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Process Biomass into useful products.</Description>
+		<Hint>Must be connected to a Refinery Reactor Vat to operate.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>refinery vat block</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>Refinery Reactor Vat Component</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Advanced Machine Block</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>biomass</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>A small part of a Refinery Reactor Vat.</Description>
+		<Hint>Place in a 3 by 3 by 3 configuration to form a valid Reactor Vat.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>jet turbine housing</Key>
+		<Category>power</Category>
+		<Tier>2</Tier>
+		<CraftedName>Jet Turbine Generator Housing</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Advanced Machine Block</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Plastic Pellet</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<ResearchRequirements>
+			<Research>biomass</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Housing component for a Jet Turbine Generator. Burns HEC Fuel to drive a turbine generating lots of power.</Description>
+		<Hint>Build in a 4 by 3 horizontal shape, and build 3 high. Attach an intake to form the front of the machine.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>jet turbine intake</Key>
+		<Category>power</Category>
+		<Tier>2</Tier>
+		<CraftedName>Jet Turbine Generator Intake</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Advanced Machine Block</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Low Grade Steel Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>biomass</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Sucks in large amounts of air for the turbine. Forms the front of the generator.</Description>
+		<Hint>The Turbine Generator intake is placed at the front of the housing in a 3 by 3 vertical shape.</Hint>
+	</CraftData>	
+	
+	<!-- Available quite quickly, slightly awkward to build without automation, requires a lot of power and resources once made -->
+	<CraftData>
+		<Key>Laboratory Component</Key>
+		<Category>power</Category>
+		<Tier>2</Tier>
+		<CraftedName>Laboratory Component</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>lightweight machine housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<Description>Use this to Research advanced Projects with Experiments.</Description>
+		<Hint>The Laboratory is built in a 3x3x3 shape.</Hint>
+	</CraftData>	
+	
+	<CraftData>
+		<Key>arther core</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>ARTHER Power Core</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+	<!--	<RequiredModule>HydrojetCutter</RequiredModule>--><!--Removed as people are too stupid to cope with complexity-->
+		<Description>MK1 movement module for ARTHER</Description>
+		<Hint>Allows ARTHER to move reliably again</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>arther battery</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>ARTHER Battery Core</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+		</Costs>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>MK1 battery module for ARTHER</Description>
+		<Hint>Allows ARTHER to collect more power</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>arther solar</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>ARTHER Solar Panel</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>32</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+		</Costs>
+		<RequiredModule>HydrojetCutter</RequiredModule>
+		<Description>MK1 solar module for ARTHER</Description>
+		<Hint>Allows ARTHER to collect power faster</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>motor</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Basic Drill Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>6</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+		<Description>Basic Drill Motor</Description>
+		<Hint>Increases Ore Collection speed to 200%. Press R on Ore Extractor to install</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>motor mk2</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Enhanced Drill Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>12</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic Drill Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>mining upgrade 2</Research>
+		</ResearchRequirements>
+		<Description>Enhanced Drill Motor</Description>
+		<Hint>Increases Ore Collection speed to 400%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>motor mk3</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Magnetic Drill Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Enhanced Drill Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>mining upgrade 3</Research>
+		</ResearchRequirements>
+		<Description>Magnetic Drill Motor</Description>
+		<Hint>Increases Ore Collection speed to 800%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>motor mk4</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Fusion Drill Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>32</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>48</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>24</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Magnetic Drill Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>mining upgrade 4</Research>
+		</ResearchRequirements>
+		<Description>Fusion Drill Motor</Description>
+		<Hint>Increases Ore Collection speed to 1600%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>motor mk5</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Antimatter Drill Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>64</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>64</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>48</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Fusion Drill Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>mining upgrade 5</Research>
+		</ResearchRequirements>
+		<Description>Antimatter Drill Motor</Description>
+		<Hint>Increases Ore Collection speed to 3200%</Hint>
+	</CraftData>
+	
+	<CraftData>
+		<Key>cutter head T2</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Steel Cutter Head</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>3</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Low Grade Steel Bar</Name>
+				<Amount>3</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchRequirements>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+		<ResearchCost>1</ResearchCost>
+		<Description>Ore Extractor upgrade that increases Extractor efficiency. Allows harvesting tougher materials.</Description>
+		<Hint>Higher efficiency means an extractor can last longer on an ore vein. It does not increase extraction speed.</Hint>
+	</CraftData>	
+	
+	<CraftData>
+		<Key>diamond lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Diamond Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Diamond Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>2</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>0</value><!-- Diamond -->
+			</Scan>
+		</ScanRequirements>
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 15%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>emerald lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Emerald Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Emerald Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>1</value><!-- Emerald -->
+			</Scan>
+		</ScanRequirements>
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 30%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>ruby lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Ruby Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Ruby Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>8</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>2</value><!-- Ruby -->
+			</Scan>
+		</ScanRequirements>
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 50%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>sapphire lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Sapphire Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Sapphire Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>3</value><!-- Sapphire -->
+			</Scan>
+		</ScanRequirements>
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 90%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>topaz lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Topaz Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Topaz Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>12</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>4</value><!-- Topaz -->
+			</Scan>
+		</ScanRequirements>		
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 150%</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>sugalite lense</Key>
+		<Category>power</Category>
+		<Tier>0</Tier>
+		<CraftedName>Sugalite Focusing Lens</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>	
+				<Name>Sugalite Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>15</ResearchCost>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>5</value><!-- Sugalite -->
+			</Scan>
+		</ScanRequirements>
+		<Description>Modular upgrade for all Laser Power Transmitters</Description>
+		<Hint>Increases laser transmission speed by 200%</Hint>
+	</CraftData>
+	<!-- Components for crafting (currently stuck in T4) -->
+	
+	<CraftData>
+		<Key>copper wire</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Copper Wire</CraftedName>
+		<CraftedAmount>5</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<Description>Fine Copper wire, used for delicate electronics.</Description>
+		<Hint>Currently lacking insulation.</Hint>
+		
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	
+	<CraftData>
+		<Key>Tin Plate</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Tin Plate</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>2</ResearchCost>
+		<Description>Thin metal plates, used for the outside of lightweight objects.</Description>
+		<Hint>Not to be used for heavy-duty machines!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>Iron Gear</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Iron Gear</CraftedName>
+		<CraftedAmount>5</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>2</ResearchCost>
+		<Description>Bevelled gear, used in various motors and joints.</Description>
+		<Hint>Bevelled as it's quieter!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>Empty Metal Tube</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Empty Metal Tube</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>16</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>2</ResearchCost>
+		<Description>Empty metal tube.</Description>
+		<Hint>Combine with other items to create useful parts</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>Empty Fuel Canister</Key>
+		<Category>mining</Category>
+		<Tier>0</Tier>
+		<CraftedName>Empty Fuel Canister</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Empty Metal Tube</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>0</ResearchCost>
+		<Description>Empty fuel canister.</Description>
+		<Hint>Be green - recyle after use!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>Servo Motor</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Servo Motor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Bar</Name>
+				<Amount>3</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>15</ResearchCost>
+		<Description>Accurate and fast motor.</Description>
+		<Hint>Minimal torque.</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>lightweight machine housing</Key>
+		<Category>upgrades</Category>
+		<Tier>0</Tier>
+		<CraftedName>Lightweight Machine Housing</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>6</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<Description>A small metal boxed, used in lightweight objects.</Description>
+		<Hint>Not to be used for heavy-duty machines!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+	
+	<CraftData>
+		<Key>massstoragecrate</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Mass Storage Block</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<ResearchRequirements>
+			<Research>T2 assist machines</Research>
+		</ResearchRequirements>
+		<Description>Mass Storage Facility. Place on a horizontal plane.</Description>
+		<Hint>Unlimited Storage. Use I/O ports to access the contents!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>massstorageinput</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Mass Storage Input Port</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Gear</Name>
+				<Amount>16</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>4</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>4</Amount>
+			</CraftCost>	
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<ResearchRequirements>
+			<Research>T2 assist machines</Research>
+		</ResearchRequirements>
+		<Description>Mass Storage Facility. Place on a horizontal plane.</Description>
+		<Hint>Unlimited Storage. Use I/O ports to access the contents!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>massstorageoutput</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Mass Storage Output Port</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Gear</Name>
+				<Amount>16</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>4</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>5</ResearchCost>
+		<ResearchRequirements>
+			<Research>T2 assist machines</Research>
+		</ResearchRequirements>
+		<Description>Mass Storage Facility. Place on a horizontal plane.</Description>
+		<Hint>Unlimited Storage. Use I/O ports to access the contents!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>macerator</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Macerator</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Gear</Name>
+				<Amount>16</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>12</ResearchCost>
+		<Description>Macerator crushes and disposes of unwanted rock</Description>
+		<Hint>Has a small chance to produce ore.</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>autoexcavator</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Auto Excavator</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Laser Energy Transmitter</Name>
+				<Amount>1</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>3</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>12</ResearchCost>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<Description>Automatically digs a 5x5 vertical corridor.</Description>
+		<Hint>Does not affect ores.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>autobuilder</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Auto Builder</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Laser Energy Transmitter</Name>
+				<Amount>1</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>3</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>8</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>12</ResearchCost>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<Description>Places items from attached Storage Hopper along cardinal directions.</Description>
+		<Hint>Why build your own conveyor lines when a machine can do it for you?</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>manufacturingplant</Key>
+		<Category>logistics</Category>
+		<Tier>1</Tier>
+		<CraftedName>Manufacturing Plant</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Gear</Name>
+				<Amount>16</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>1</Amount>
+			</CraftCost>		
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>25</ResearchCost>
+		<Description>Manufacturing Plants allow automated crafting and building.</Description>
+		<Hint>Requires V2 Build Gun to move!</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>locationmarker</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Location Marker</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Use on selected location to store in marker. Can be used in various machines that use a target location.</Description>
+		<Hint>Selecting the marker on your hotbar will show its stored location</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>0</value><!-- Diamond -->
+			</Scan>
+		</ScanRequirements>		
+	</CraftData>
+	<CraftData>
+		<Key>locationmarker2</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Location Marker</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Emerald Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Use on selected location to store in marker. Can be used in various machines that use a target location.</Description>
+		<Hint>Selecting the marker on your hotbar will show its stored location</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>1</value><!-- Emerald -->
+			</Scan>
+		</ScanRequirements>		
+	</CraftData>
+	<CraftData>
+		<Key>locationmarker3</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Location Marker</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Ruby Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Use on selected location to store in marker. Can be used in various machines that use a target location.</Description>
+		<Hint>Selecting the marker on your hotbar will show its stored location</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>2</value><!-- Ruby -->
+			</Scan>
+		</ScanRequirements>
+	</CraftData>	
+	
+	<CraftData>
+		<Key>teleporter</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Teleporter</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Diamond Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>10</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>Supply a location marker and enough power to allow teleporting</Description>
+		<Hint>Jump on top of the device to activate!</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>162</type><!-- Crystal -->
+				<value>0</value><!-- Diamond -->
+			</Scan>
+			<Scan>
+				<type>152</type><!-- Crystal Deposit -->
+				<value>-1</value><!-- Any -->
+			</Scan>
+			<Scan>
+				<type>151</type><!-- Lithium -->
+				<value>-1</value><!-- Any -->
+			</Scan>					
+		</ScanRequirements>
+		<ResearchCost>1</ResearchCost>
+	</CraftData>	
+	<CraftData>
+		<Key>chargeexplosive</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>Chargeable Explosive</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>1</ResearchCost>
+		<Description>Supply power to increase explosion radius. Keeps charge when picked up.</Description>
+		<Hint>Requires charging with power before use!</Hint>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+	</CraftData>
+	
+	
+	<CraftData>
+		<Key>blankping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Blank Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Wire</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping without power cost.</Description>
+		<Hint>Combine with a piece of ore to create specific ore pings</Hint>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>coalping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Coal Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Coal Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Coal Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>ironping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Iron Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Iron Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>84</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>copperping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Copper Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Copper Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Copper Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>88</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>tinping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Tin Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Tin Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>89</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>lithiumping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Lithium Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Lithium Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Lithium Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>85</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>goldping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Gold Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Gold Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Gold Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>86</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>nickelping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Nickel Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Nickel Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>150</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>titaniumping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Titanium Ore Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Ore</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Titanium Ore without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>151</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>crystalping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Crystal Deposit Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Crystal Deposit</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Crystal Deposit without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>152</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>biomassping</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Biomass Growth Ping</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Blank Ore Ping</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Biomass Growth</Name>
+				<Amount>1</Amount>
+			</CraftCost>			
+		</Costs>
+		<Description>A consumable item that generates an ore ping that will only show Biomass Growth without power cost.</Description>
+		<ResearchRequirements>
+			<Research>ore pings</Research>
+		</ResearchRequirements>
+		<ScanRequirements>
+			<Scan>
+				<type>153</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>		
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>	
+	<CraftData>
+		<Key>T1 Lift</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Lift w/underside Piston</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Slow and efficient vertical transport./nAttached from the underside.</Description>
+		<Hint>Can be upgraded using Lift Accelerators.</Hint>
+	</CraftData>
+		<CraftData>
+		<Key>T1 Lift Control</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Lift Manual Control Module</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>75</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>35</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Slow and efficient vertical transport./nAttached from the underside.</Description>
+		<Hint>Can be upgraded using Lift Accelerators.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>T1 Compressor</Key>
+		<Category>logistics</Category>
+		<Tier>0</Tier>
+		<CraftedName>Lift Compressor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Bar</Name>
+				<Amount>35</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Tin Bar</Name>
+				<Amount>15</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Slow and efficient vertical transport./nAttached from the underside.</Description>
+		<Hint>Can be upgraded using Lift Accelerators.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>MK1 Robot Arm</Key>
+		<Category>logistics</Category>
+		<Tier>2</Tier>
+		<CraftedName>MK1 Robot Arm</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Lightweight Machine Housing</Name>
+				<Amount>3</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Servo Motor</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Automatically moves ore between conveyors.</Description>
+		<Hint>Use this to organise your ore conveyors.</Hint>
+		<ResearchRequirements>
+			<Research>T2 assist machines</Research>
+		</ResearchRequirements>
+	</CraftData>
+	<CraftData>
+		<Key>Basic PCB</Key>
+		<Category>upgrades</Category><!-- or Intermediate -->
+		<Tier>1</Tier>
+		<CraftedName>Basic PCB</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Coil</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>A low clock PCB.</Description>
+		<Hint>Used in electronic devices.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Copper Housing</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Copper Housing</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Plate</Name>
+				<Amount>6</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Copper-based housing.</Description>
+		<Hint>Use to house low-level items safely.</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Basic Experimental Pod</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Basic Experimental Pod</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>A low-level Experimental Pod.</Description>
+		<Hint>Use to unlock Projects</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Research Assembler</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Research Assembler</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Automatically assemble Research Pods</Description>
+		<Hint>Use to unlock Projects!</Hint>
+	</CraftData>
+	<CraftData>
+		<Key>Laboratory Component</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Laboratory Component</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Basic Experimental Pod</Name>
+				<Amount>5</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Use this to research advanced Projects.</Description>
+		<Hint>Use to unlock Projects</Hint>
+	</CraftData>
+	
+	
+</ArrayOfCraftData>

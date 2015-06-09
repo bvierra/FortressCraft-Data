@@ -1,0 +1,51 @@
+<MaterialEntry>
+	<Name>Conveyor Belt</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Conveyor Belt</Text>
+				</Title>
+				<Icon>
+					<Name>Conveyor Belt</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Conveyor Belts are a relatively cheap and easy way of moving resources around. Primarily used to clear down Storage Hoppers attached to Ore Extractors and take them to your Ore Smelter, Conveyor are the first methods you will use to automate your base.</Text>
+				</Paragraph>				
+				<Heading>
+					<Text>Usage</Text>
+				</Heading>
+				<Paragraph>
+					<Text>Conveyor Belts will automatically take resources from any attached Storage Hopper and move it along its forward direction. Objects are transported at 60m/min horizontally.</Text>
+				</Paragraph>	
+				<Header><Text>Advanced usage</Text></Header>
+				<Icon>
+					<Name>Conveyor Belt Filter</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Use of a Conveyor Belt Filter allows you to have more accurate control over the distribution of resources. You can set a Filter to only take GARBAGE, ORE, CONSUMABLES or ALL material types. You can use this system to keep your Smelter's Hoppers clear of detritus. </Text>
+				</Paragraph>				
+
+			</Paragraphs>
+		</Page>				
+			
+		<Page>
+			<Paragraphs>
+				<Header><Text>Upgrades</Text></Header>
+				<Icon>
+					<Name>Transport Pipe</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Generally speaking, your main challenge is moving ore without hitting bottlenecks. T1 conveyors have a number of disadvantages, including not being able to be used upside-down, and very slow vertical ascent. Utilising T2 resources, the Transport Pipe allows you to overcome these restrictions, as well as move twice as many objects per minute, allowing a maximum delivery rate of 120 ore per minute.</Text>
+				</Paragraph>			
+				<Header><Text>Improving your network further</Text></Header>
+				<Paragraph>
+					<Text>You can use multiple Conveyors to remove resources more quickly from a Storage Hopper. Eventually you will reach the practical limits of conveyors and will need to investigate using one of the types of Minecarts to move materials in bulk, or a class of MatterMover to move materials quickly, depending on your specific needs.</Text>
+				</Paragraph>			
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

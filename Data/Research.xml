@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfResearchDataEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResearchDataEntry>
+		<Key>black box</Key>
+		<Name>Black Box Data</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>10</ResearchCost>
+		<PreDescription>Your suit contains a black box that stored all sensor readings leading up to your crash on the planet. Researching this data could help you determine what exactly happened.</PreDescription>
+		<PostDescription>The last status update received from the space station before you used the escape shuttle was a general Evacuation Order. No other escape shuttle appears to have been activated. The shuttle crashed from damage sustained before you boarded it. The explosions you witnessed were caused by the impact of large inert objects, possibly meteors. It is impossible to determine at this time if any other people survived. For now, you will have to assume you will be on your own.</PostDescription>
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>local life</Key>
+		<Name>Local Life Forms</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>10</ResearchCost>
+		<PreDescription>test</PreDescription>
+		<PostDescription>post test</PostDescription>
+		<!--
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Tree Trunk</Name>
+				<Amount>9</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Leaves</Name>
+				<Amount>10</Amount>
+			</Requirement>
+		</ProjectItemRequirements>-->
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>suit upgrades</Key>
+		<Name>Suit Upgrading</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>10</ResearchCost>
+		<PreDescription>Your environmental suit is the most advanced piece of exploration engineering known to man. But its modular design was especially created so that specific parts could be upgraded or replaced. It is time to look into how you can do this away from the factories back home. You can use a bit of help surviving in this harsh environment.</PreDescription>
+		<PostDescription>With some minor adjustments, it should be possible to produce suit upgrades from basic machinery design, miniaturised to be wearable. The most obvious upgrades are a better solar cell and cold insulation to operate at higher efficiency on this hostile planet.</PostDescription>
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>ore pings</Key>
+		<Name>Improved Ore Scanning</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>1</ResearchCost>
+		<ResearchRequirements>
+			<Research>suit upgrades</Research>
+		</ResearchRequirements>
+		<PreDescription>Using local materials, it should be possible to create single use items that improve your suit's built-in ore scanning capabilities</PreDescription>
+		<PostDescription>Now available : Blank Ore Pings.\nCombine with a piece of ore to create specific ore pings</PostDescription>
+	</ResearchDataEntry>	
+	<ResearchDataEntry>
+		<Key>mining upgrade 1</Key>
+		<Name>Basic Mining Upgrades I</Name>
+		<IconName>Magnetic Drill Motor</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
+		<PostDescription>Now available : Basic Drill Motors, Machine Components</PostDescription>
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Basic Experimental Pod</Name>
+				<Amount>10</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>mining upgrade 2</Key>
+		<Name>Basic Mining Upgrades II</Name>
+		<IconName>Enhanced Drill Motor</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
+		<PostDescription>Now available : Enhanced Drill Motors, T2 Forced Induction Upgrade.</PostDescription>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+				<Amount>10</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>mining upgrade 3</Key>
+		<Name>Intermediate Mining Upgrades I</Name>
+		<IconName>Enhanced Drill Motor</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
+		<PostDescription>Now available : Magnetic Drill Motors.</PostDescription>
+		<ResearchRequirements>
+			<Research>mining upgrade 2</Research>
+		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
+	</ResearchDataEntry>
+		<ResearchDataEntry>
+		<Key>mining upgrade 4</Key>
+		<Name>Intermediate Mining Upgrades II</Name>
+		<IconName>Enhanced Drill Motor</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
+		<PostDescription>Now available : Fusion Drill Motors.</PostDescription>
+		<ResearchRequirements>
+			<Research>mining upgrade 3</Research>
+		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Complex Experimental Pod</Name>
+				<Amount>25</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>mining upgrade 5</Key>
+		<Name>Advanced Mining Upgrades</Name>
+		<IconName>Enhanced Drill Motor</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
+		<PostDescription>Now available : AntiMatter Drill Motors, T3 Forced Induction Upgrade.</PostDescription>
+		<ResearchRequirements>
+			<Research>mining upgrade 4</Research>
+		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Advanced Experimental Pod</Name>
+				<Amount>50</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>T1 assist machines</Key>
+		<Name>Base Building Automation</Name>
+		<IconName>Robotic Welder</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>Building a huge mining operation is a job for machines, not man.</PreDescription>
+		<PostDescription>Now available : Auto-Excavator, Macerator, Auto-Builder.</PostDescription>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</ResearchDataEntry>
+	
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>25</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+	
+		<ResearchDataEntry>
+		<Key>T2 assist machines</Key>
+		<Name>Advanced Logistics</Name>
+		<IconName>mk1 robot arm</IconName>
+		<ResearchCost>5</ResearchCost>
+		<PreDescription>Optimising your mining operation requires a scalpel, not a hammer. (Hammers available as a seperate upgrade, of course)</PreDescription>
+		<PostDescription>Now available : MK1 Robot Arm.</PostDescription>
+		<ResearchRequirements>
+			<Research>T1 assist machines</Research>
+		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>alloys</Key>
+		<Name>Metal Alloys</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>15</ResearchCost>
+		<PreDescription>Using local metals it should be possible to create higher grade steel for improved equipment quality.</PreDescription>
+		<PostDescription>By combining Iron and Nickel, we can create a low-grade steel. Perhaps with future ores we can create even better alloys.</PostDescription>
+		<ScanRequirements>
+			<Scan>
+				<type>84</type>
+				<value>-1</value>
+			</Scan>
+			<Scan>
+				<type>150</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>crystal</Key>
+		<Name>Crystal Dynamics</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>15</ResearchCost>
+		<PreDescription>The crystals you found underground seem to have strange properties. Studying them may open new possibilities.</PreDescription>
+		<PostDescription>These crystals seem to be made of a crystalline form of quartz with extremely high electrical conductance.</PostDescription>
+		<ScanRequirements>
+			<Scan>
+				<type>152</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>
+		<ResearchRequirements>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+	</ResearchDataEntry>
+	<ResearchDataEntry>
+		<Key>biomass</Key>
+		<Name>Hydrocarbon Recombination</Name>
+		<IconName>Antimatter Drill Motor</IconName>
+		<ResearchCost>15</ResearchCost>
+		<PreDescription>Organic life appears to be quite abundant in the deep hostile caverns. Perhaps you can make use of them.</PreDescription>
+		<PostDescription>By integrating the local crystals into refinery schematics from the ship database you can break down and recombine the hydrocarbons found in primitive growths from the deep caverns. This should allow production of new materials for more complex machinery.</PostDescription>
+		<ScanRequirements>
+			<Scan>
+				<type>153</type>
+				<value>-1</value>
+			</Scan>
+		</ScanRequirements>
+		<ResearchRequirements>
+			<Research>crystal</Research>
+		</ResearchRequirements>
+	</ResearchDataEntry>
+</ArrayOfResearchDataEntry>
+
