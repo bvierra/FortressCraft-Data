@@ -95,6 +95,11 @@
 				<Name>Intermediate Experimental Pod</Name>
 				<Amount>15</Amount>
 			</Requirement>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+			<Amount>5</Amount>
+			</Requirement>
+
 		</ProjectItemRequirements>
 		
 	</ResearchDataEntry>
@@ -113,6 +118,14 @@
 			<Requirement>
 				<Name>Complex Experimental Pod</Name>
 				<Amount>25</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+			<Amount>5</Amount>
 			</Requirement>
 		</ProjectItemRequirements>
 		
@@ -133,6 +146,19 @@
 				<Name>Advanced Experimental Pod</Name>
 				<Amount>50</Amount>
 			</Requirement>
+			<Requirement>
+				<Name>Complex Experimental Pod</Name>
+				<Amount>25</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+			<Amount>5</Amount>
+			</Requirement>
+			
 		</ProjectItemRequirements>
 		
 	</ResearchDataEntry>
@@ -148,13 +174,7 @@
 		</ResearchRequirements>
 	</ResearchDataEntry>
 	
-		<ProjectItemRequirements>
-			<Requirement>
-				<Name>Intermediate Experimental Pod</Name>
-				<Amount>25</Amount>
-			</Requirement>
-		</ProjectItemRequirements>
-	
+		
 		<ResearchDataEntry>
 		<Key>T2 assist machines</Key>
 		<Name>Advanced Logistics</Name>
@@ -168,8 +188,8 @@
 		
 		<ProjectItemRequirements>
 			<Requirement>
-				<Name>Simplified Experimental Pod</Name>
-				<Amount>15</Amount>
+				<Name>Basic Experimental Pod</Name>
+				<Amount>50</Amount>
 			</Requirement>
 		</ProjectItemRequirements>
 		
@@ -191,6 +211,22 @@
 				<value>-1</value>
 			</Scan>
 		</ScanRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Complex Experimental Pod</Name>
+				<Amount>25</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+			<Amount>5</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
 	</ResearchDataEntry>
 	<ResearchDataEntry>
 		<Key>crystal</Key>
@@ -208,6 +244,22 @@
 		<ResearchRequirements>
 			<Research>alloys</Research>
 		</ResearchRequirements>
+		
+		<ProjectItemRequirements>
+			<Requirement>
+				<Name>Complex Experimental Pod</Name>
+				<Amount>25</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>15</Amount>
+			</Requirement>
+			<Requirement>
+				<Name>Simplified Experimental Pod</Name>
+			<Amount>5</Amount>
+			</Requirement>
+		</ProjectItemRequirements>
+		
 	</ResearchDataEntry>
 	<ResearchDataEntry>
 		<Key>biomass</Key>

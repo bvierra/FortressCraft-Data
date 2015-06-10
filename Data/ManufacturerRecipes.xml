@@ -806,8 +806,8 @@
 				<Amount>1</Amount>
 			</CraftCost>
 		</Costs>
-		<Description>Automatically converts Bars into Wire</Description>
-		<Hint>A useful start when automating</Hint>
+		<Description>Automatically converts Coils into PCBs</Description>
+		<Hint>PCBs are used in many electronic components</Hint>
 	</CraftData>
 	<CraftData>
 		<Key>hydrojet cutter</Key>
@@ -1217,28 +1217,7 @@
 		<Description>Sucks in large amounts of air for the turbine. Forms the front of the generator.</Description>
 		<Hint>The Turbine Generator intake is placed at the front of the housing in a 3 by 3 vertical shape.</Hint>
 	</CraftData>	
-	
-	<!-- Available quite quickly, slightly awkward to build without automation, requires a lot of power and resources once made -->
-	<CraftData>
-		<Key>Laboratory Component</Key>
-		<Category>power</Category>
-		<Tier>2</Tier>
-		<CraftedName>Laboratory Component</CraftedName>
-		<CraftedAmount>1</CraftedAmount>
-		<Costs>
-			<CraftCost>
-				<Name>lightweight machine housing</Name>
-				<Amount>1</Amount>
-			</CraftCost>
-			<CraftCost>
-				<Name>Basic PCB</Name>
-				<Amount>1</Amount>
-			</CraftCost>
-		</Costs>
-		<ResearchCost>5</ResearchCost>
-		<Description>Use this to Research advanced Projects with Experiments.</Description>
-		<Hint>The Laboratory is built in a 3x3x3 shape.</Hint>
-	</CraftData>	
+
 	
 	<CraftData>
 		<Key>arther core</Key>
@@ -2582,6 +2561,10 @@
 		<Description>Automatically assemble Research Pods</Description>
 		<Hint>Use to unlock Projects!</Hint>
 	</CraftData>
+	
+		
+	<!-- Available quite quickly, slightly awkward to build without automation, requires a lot of power and resources once made -->
+		
 	<CraftData>
 		<Key>Laboratory Component</Key>
 		<Category>upgrades</Category>
@@ -2599,8 +2582,8 @@
 			</CraftCost>
 		</Costs>
 		<ResearchCost>10</ResearchCost>
-		<Description>Use this to research advanced Projects.</Description>
-		<Hint>Use to unlock Projects</Hint>
+		<Description>Use this to Research advanced Projects with Experiments.</Description>
+		<Hint>The Laboratory is built in a 3x3x3 shape.</Hint>
 	</CraftData>
 	
 	

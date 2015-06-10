@@ -465,16 +465,16 @@
 		<ActionParameter>Biomass Growth</ActionParameter><!-- Name of ore voxel to ping -->
 	</ItemEntry>	
 	
-	
+	<!-- I'm unsure why I ever made this into an item
 	<ItemEntry>
 		<ItemID>349</ItemID>
-		<Name>Research Assembler</Name>
+		<Name>Research Assembler DO NOT USE</Name>
 		<Plural>Research Assembler</Plural>
 		<Type>ItemStack</Type>	
 		<Object>UnknownItem</Object>
 		<Sprite>Solar Cell MK1</Sprite>
-		<Category>Consumable</Category>
-	</ItemEntry>	
+		<Category>CraftingIngredient</Category>
+	</ItemEntry>	-->
 	<ItemEntry>
 		<ItemID>350</ItemID>
 		<Name>Basic Experimental Pod</Name>
