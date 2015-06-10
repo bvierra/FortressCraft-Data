@@ -2541,6 +2541,99 @@
 		<Description>A low-level Experimental Pod.</Description>
 		<Hint>Use to unlock Projects</Hint>
 	</CraftData>
+
+	<CraftData>
+		<Key>Simplified Experimental Pod</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Simplified Experimental Pod</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic Experimental Pod</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>A Simplified Experimental Pod.</Description>
+		<Hint>Use to unlock Projects</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+	</CraftData>
+
+	<CraftData>
+		<Key>Intermediate Experimental Pod</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Intermediate Experimental Pod</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Simplified Experimental Pod</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>An Intermediate Experimental Pod.</Description>
+		<Hint>Use to unlock Projects</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 2</Research>
+		</ResearchRequirements>
+	</CraftData>	
+
+	<CraftData>
+		<Key>Complex Experimental Pod</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Complex Experimental Pod</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Intermediate Experimental Pod</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>A Complex Experimental Pod.</Description>
+		<Hint>Use to unlock Projects</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 3</Research>
+		</ResearchRequirements>
+	</CraftData>	
+	
+	<CraftData>
+		<Key>Advanced Experimental Pod</Key>
+		<Category>upgrades</Category>
+		<Tier>1</Tier>
+		<CraftedName>Advanced Experimental Pod</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Copper Housing</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Complex Experimental Pod</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>An Advanced Experimental Pod.</Description>
+		<Hint>Use to unlock Projects</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 4</Research>
+		</ResearchRequirements>
+	</CraftData>
+	
 	<CraftData>
 		<Key>Research Assembler</Key>
 		<Category>upgrades</Category>
