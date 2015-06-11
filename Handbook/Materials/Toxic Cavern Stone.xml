@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Toxic Cavern Stone</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Toxic Cavern Stone</Text>
+				</Title>
+				<Icon>
+					<Name>Toxic Cavern Stone</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Main block type between --430 ish and -685 ish. The block causes no poison damage itself, although the caverns in which you find them are filled with poisonous particles. Can be crushed in macerator to possibly extract useful ore. The block can be placed.</Text>
+				</Paragraph>
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

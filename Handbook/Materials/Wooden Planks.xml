@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Wooden Planks</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Wooden Planks</Text>
+				</Title>
+				<Icon>
+					<Name>Wooden Planks</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Basic ingredient for several beautification blocks. The block can be placed. No manufacturing plant required to craft.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

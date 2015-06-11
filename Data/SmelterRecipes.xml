@@ -7,7 +7,7 @@
 		<Costs>
 			<CraftCost>
 				<Name>Copper Ore</Name>
-				<Amount>1</Amount>
+				<Amount>16</Amount>
 			</CraftCost>
 		</Costs>
 		<Description>Copper bars are refined Copper usable for crafting.</Description>
@@ -39,11 +39,11 @@
 	<CraftData>
 		<Key>lithium bar</Key>
 		<CraftedName>Lithium Bar</CraftedName>
-		<CraftedAmount>8</CraftedAmount>
+		<CraftedAmount>1</CraftedAmount>
 		<Costs>
 			<CraftCost>
 				<Name>Lithium Ore</Name>
-				<Amount>8</Amount>
+				<Amount>16</Amount>
 			</CraftCost>
 		</Costs>
 		<Description>Lithium bars are refined Lithium usable for crafting.</Description>
