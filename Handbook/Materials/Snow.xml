@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Snow</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Snow</Text>
+				</Title>
+				<Icon>
+					<Name>Snow</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Block type making up the cold surface of the world. Can be crushed in macerator to possibly extract useful ore. The block can be placed.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>
