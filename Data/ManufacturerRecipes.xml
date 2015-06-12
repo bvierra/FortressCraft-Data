@@ -326,11 +326,27 @@
 		<CanCraftAnywhere>true</CanCraftAnywhere>
 	</CraftData>
 	<CraftData>
+		<Key>spacewindows</Key>
+		<Category>defences</Category>
+		<Tier>0</Tier>
+		<CraftedName>Space Window</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Iron Plate</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Useful for looking into the guts of your base</Description>
+		<Hint>It's seethrough!</Hint>
+		<CanCraftAnywhere>true</CanCraftAnywhere>
+	</CraftData>
+	<CraftData>
 		<Key>chevron</Key>
 		<Category>defences</Category>
 		<Tier>0</Tier>
 		<CraftedName>Chevron Sign</CraftedName>
-		<CraftedAmount>1</CraftedAmount>
+		<CraftedAmount>2</CraftedAmount>
 		<Costs>
 			<CraftCost>
 				<Name>Rough Hewn Rock</Name>
@@ -346,7 +362,7 @@
 		<Category>defences</Category>
 		<Tier>0</Tier>
 		<CraftedName>Chevron Sign 2</CraftedName>
-		<CraftedAmount>1</CraftedAmount>
+		<CraftedAmount>2</CraftedAmount>
 		<Costs>
 			<CraftCost>
 				<Name>Rough Hewn Rock</Name>
@@ -764,8 +780,8 @@
 				<Amount>5</Amount>
 			</CraftCost>
 			<CraftCost>
-				<Name>Copper Plate</Name>
-				<Amount>1</Amount>
+				<Name>Tin Plate</Name>
+				<Amount>3</Amount>
 			</CraftCost>
 		</Costs>
 		<Description>Automatically converts Bars into Wire</Description>
@@ -2529,8 +2545,9 @@
 		<CraftedAmount>1</CraftedAmount>
 		<Costs>
 			<CraftCost>
-				<Name>Copper Housing</Name>
-				<Amount>1</Amount>
+			<!-- To consider, add a housing creator on the assembly line -->
+				<Name>Copper Plate</Name>
+				<Amount>6</Amount>
 			</CraftCost>
 			<CraftCost>
 				<Name>Basic PCB</Name>
@@ -2541,6 +2558,64 @@
 		<Description>A low-level Experimental Pod.</Description>
 		<Hint>Use to unlock Projects</Hint>
 	</CraftData>
+	<CraftData>
+		<Key>Geological Surveyor</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedName>Geological Surveyor</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Emerald Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Basic PCB</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Gives a report on available resources</Description>
+		<Hint>Use to determine the best place for your Quarry!</Hint>
+	</CraftData>
+	
+	<CraftData>
+		<Key>Basic Quarry</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedName>Basic Quarry</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Name>Sugalite Crystal</Name>
+				<Amount>1</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Titanium Bar</Name>
+				<Amount>500</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Nickel Bar</Name>
+				<Amount>500</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Iron Gear</Name>
+				<Amount>150</Amount>	<!--	 I HOPE U CAN AUTOMATE -->
+			</CraftCost>
+			<CraftCost>
+				<Name>High Energy Composite Fuel</Name>
+				<Amount>64</Amount>	<!--	 This is how it flies. -->
+			</CraftCost>
+		</Costs>
+		<ResearchCost>10</ResearchCost>
+		<Description>Automatically digs a 10x10x1024 hole and returns all resources</Description>
+		<Hint>Also returns all the dirt and rock...</Hint>
+	</CraftData>
+	
 	<CraftData>
 		<Key>Research Assembler</Key>
 		<Category>upgrades</Category>
@@ -2561,16 +2636,15 @@
 		<Description>Automatically assemble Research Pods</Description>
 		<Hint>Use to unlock Projects!</Hint>
 	</CraftData>
-	
 		
 	<!-- Available quite quickly, slightly awkward to build without automation, requires a lot of power and resources once made -->
 		
 	<CraftData>
-		<Key>Laboratory Component</Key>
+		<Key>Story Component</Key><!-- You what? -->
 		<Category>upgrades</Category>
 		<Tier>1</Tier>
 		<CraftedName>Laboratory Component</CraftedName>
-		<CraftedAmount>1</CraftedAmount>
+		<CraftedAmount>9</CraftedAmount>
 		<Costs>
 			<CraftCost>
 				<Name>Basic Experimental Pod</Name>

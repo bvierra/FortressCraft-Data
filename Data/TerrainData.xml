@@ -5298,6 +5298,30 @@
 			<tag>Machinery</tag>
 		</tags>
 	</TerrainDataEntry>	
+	<TerrainDataEntry>
+		<CubeType>519</CubeType>
+		<Name>Geological Surveyor</Name>
+		<Description>Ensures your Quarries are correctly placed.</Description>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>192</TopTexture>
+		<SideTexture>192</SideTexture>
+		<BottomTexture>192</BottomTexture>
+		<GUITexture>192</GUITexture>
+		<isSolid>false</isSolid>
+		<isTransparent>true</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>true</isPassable>
+		<hasObject>true</hasObject>
+		<hasEntity>true</hasEntity>
+		<Category>Machine</Category>
+		<AudioWalkType>Metal</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Machinery</tag>
+		</tags>
+	</TerrainDataEntry>
 	
 	<TerrainDataEntry>
 		<CubeType>520</CubeType>
@@ -5751,6 +5775,30 @@
 		<isHollow>false</isHollow>
 		<isGlass>false</isGlass>
 		<isPassable>false</isPassable>
+		<hasObject>true</hasObject>
+		<hasEntity>true</hasEntity>
+		<Category>Machine</Category>
+		<AudioWalkType>Metal</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Machinery</tag>
+		</tags>
+	</TerrainDataEntry>
+		<TerrainDataEntry>
+		<CubeType>537</CubeType>
+		<Name>Basic Quarry</Name>
+		<Description>Digs a 10x10x1000m hole.</Description>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>192</TopTexture>
+		<SideTexture>192</SideTexture>
+		<BottomTexture>192</BottomTexture>
+		<GUITexture>192</GUITexture>
+		<isSolid>false</isSolid>
+		<isTransparent>true</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>true</isPassable>
 		<hasObject>true</hasObject>
 		<hasEntity>true</hasEntity>
 		<Category>Machine</Category>
