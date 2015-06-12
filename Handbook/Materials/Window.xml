@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Window</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Window</Text>
+				</Title>
+				<Icon>
+					<Name>Window</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>See through beautification block. No manufacturing plant required to craft.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>
