@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Chilled Cavern Stone</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Chilled Cavern Stone</Text>
+				</Title>
+				<Icon>
+					<Name>Chilled Cavern Stone</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Main block type between -215 ish and -270 ish. The block causes no cold itself, although the caverns in which you find them are very cold. Can be crushed in macerator to possibly extract useful ore. The block can be placed.</Text>
+				</Paragraph>
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

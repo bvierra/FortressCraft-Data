@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Geiger</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Geiger</Text>
+				</Title>
+				<Icon>
+					<Name>Geiger</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Materials needed not yet implemented!</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

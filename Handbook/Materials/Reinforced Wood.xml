@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Reinforced Wood</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Reinforced Wood</Text>
+				</Title>
+				<Icon>
+					<Name>Reinforced Wood</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Stronger block to build your wooden walls. No manufacturing plant required to craft.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

@@ -1,0 +1,23 @@
+<MaterialEntry>
+	<Name>Rough Hewn Rock</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Rough Hewn Rock</Text>
+				</Title>
+				<Icon>
+					<Name>Rough Hewn Rock</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Main block type just beneath the surface blocks. Used as material for serveral beautification blocks. Can be crushed in macerator to possibly extract useful ore. The block can be placed.</Text>
+				</Paragraph>				
+				<Header>
+					<Text>Caution!</Text>
+				</Header>
+				<Paragraph><Text>You may encounter the old version of this block. In your inventory they are converted at game restart.</Text></Paragraph>
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>

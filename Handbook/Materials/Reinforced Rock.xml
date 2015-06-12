@@ -1,0 +1,19 @@
+<MaterialEntry>
+	<Name>Reinforced Rock</Name>
+	<Pages>
+		<Page>
+			<Paragraphs>
+				<Title>
+					<Text>Reinforced Rock</Text>
+				</Title>
+				<Icon>
+					<Name>Reinforced Rock</Name>
+					<Alignment>Center</Alignment>
+				</Icon>
+				<Paragraph>
+					<Text>Slighly stronger type of wall for your constructions. No manufacturing plant required for crafting this.</Text>
+				</Paragraph>				
+			</Paragraphs>
+		</Page>				
+	</Pages>
+</MaterialEntry>
