@@ -2570,7 +2570,7 @@
 				<Amount>1</Amount>
 			</CraftCost>
 			<CraftCost>
-				<Name>Basic PCB</Name>
+				<Name>Copper Housing</Name>
 				<Amount>1</Amount>
 			</CraftCost>
 			<CraftCost>
@@ -2592,7 +2592,7 @@
 		<Costs>
 			<CraftCost>
 				<Name>Sugalite Crystal</Name>
-				<Amount>1</Amount>
+				<Amount>8</Amount>
 			</CraftCost>
 			<CraftCost>
 				<Name>Titanium Bar</Name>
@@ -2613,7 +2613,7 @@
 		</Costs>
 		<ResearchCost>10</ResearchCost>
 		<Description>Automatically digs a 10x10x1024 hole and returns all resources</Description>
-		<Hint>Also returns all the dirt and rock...</Hint>
+		<Hint>Also returns all the dirt and rock...conveyto</Hint>
 	</CraftData>
 	
 	<CraftData>
