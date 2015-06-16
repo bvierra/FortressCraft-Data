@@ -554,7 +554,7 @@
 			</CraftCost>
 		</Costs>
 		<ResearchRequirements>
-			<Research>mining upgrade 2</Research>
+			<Research>mining upgrade 1</Research>
 		</ResearchRequirements>
 		<Description>Increases power usage and smelting rate.</Description>
 		<Hint>Place on top of your Ore Smelter!</Hint>
@@ -588,7 +588,7 @@
 			</CraftCost>
 		</Costs>
 		<ResearchRequirements>
-			<Research>mining upgrade 5</Research>
+			<Research>mining upgrade 2</Research>
 		</ResearchRequirements>
 		<Description>Increases power usage and smelting rate.</Description>
 		<Hint>Place on top of your Ore Smelter!</Hint>
@@ -1458,7 +1458,7 @@
 	<CraftData>
 		<Key>cutter head T2</Key>
 		<Category>mining</Category>
-		<Tier>1</Tier>
+		<Tier>2</Tier>
 		<CraftedName>Steel Cutter Head</CraftedName>
 		<CraftedAmount>1</CraftedAmount>
 		<Costs>
@@ -1478,9 +1478,36 @@
 		<ResearchRequirements>
 			<Research>alloys</Research>
 		</ResearchRequirements>
-		<ResearchCost>1</ResearchCost>
+		<ResearchCost>5</ResearchCost>
 		<Description>Ore Extractor upgrade that increases Extractor efficiency. Allows harvesting tougher materials.</Description>
 		<Hint>Higher efficiency means an extractor can last longer on an ore vein. It does not increase extraction speed.</Hint>
+	</CraftData>	
+	
+	<CraftData>
+		<Key>cutter head T3</Key>
+		<Category>mining</Category>
+		<Tier>3</Tier>
+		<CraftedName>Crystal Cutter Head</CraftedName>
+		<CraftedAmount>1</CraftedAmount>
+		
+		<Costs>
+			<CraftCost>
+				<Name>Sugalite Crystal</Name>
+				<Amount>4</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Name>Low Grade Steel Bar</Name>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		
+		<ResearchRequirements>
+			<Research>alloys</Research>
+		</ResearchRequirements>
+		
+		<ResearchCost>8</ResearchCost>
+		<Description>Ore Extractor upgrade that increases Extractor efficiency. Allows harvesting tougher materials.</Description>
+		<Hint>The Crystal head is more efficient, but wears out quicker.</Hint>
 	</CraftData>	
 	
 	<CraftData>
@@ -2533,7 +2560,7 @@
 				<Amount>6</Amount>
 			</CraftCost>
 		</Costs>
-		<ResearchCost>10</ResearchCost>
+		<ResearchCost>2</ResearchCost>
 		<Description>Copper-based housing.</Description>
 		<Hint>Use to house low-level items safely.</Hint>
 	</CraftData>
@@ -2570,7 +2597,7 @@
 				<Amount>1</Amount>
 			</CraftCost>
 			<CraftCost>
-				<Name>Basic PCB</Name>
+				<Name>Copper Housing</Name>
 				<Amount>1</Amount>
 			</CraftCost>
 			<CraftCost>
@@ -2578,9 +2605,12 @@
 				<Amount>1</Amount>
 			</CraftCost>
 		</Costs>
-		<ResearchCost>10</ResearchCost>
+		<ResearchCost>2</ResearchCost>
 		<Description>Gives a report on available resources</Description>
 		<Hint>Use to determine the best place for your Quarry!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 4</Research>
+		</ResearchRequirements>
 	</CraftData>
 	
 	<CraftData>
@@ -2592,7 +2622,7 @@
 		<Costs>
 			<CraftCost>
 				<Name>Sugalite Crystal</Name>
-				<Amount>1</Amount>
+				<Amount>8</Amount>
 			</CraftCost>
 			<CraftCost>
 				<Name>Titanium Bar</Name>
@@ -2614,6 +2644,9 @@
 		<ResearchCost>10</ResearchCost>
 		<Description>Automatically digs a 10x10x1024 hole and returns all resources</Description>
 		<Hint>Also returns all the dirt and rock...</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 5</Research>
+		</ResearchRequirements>
 	</CraftData>
 	
 	<CraftData>
@@ -2632,7 +2665,7 @@
 				<Amount>1</Amount>
 			</CraftCost>
 		</Costs>
-		<ResearchCost>10</ResearchCost>
+		<ResearchCost>8</ResearchCost>
 		<Description>Automatically assemble Research Pods</Description>
 		<Hint>Use to unlock Projects!</Hint>
 	</CraftData>

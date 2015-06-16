@@ -950,6 +950,7 @@
 			<tag>Voxel</tag>
 			<tag>Outdoor</tag>
 			<tag>Ore</tag>
+			<tag>Fluid</tag>
 		</tags>
 	</TerrainDataEntry>	
 	<TerrainDataEntry>
@@ -1513,7 +1514,52 @@
 		<tags>
 			<tag>Voxel</tag>
 			<tag>Outdoor</tag>
+			<tag>Fluid</tag>
 		</tags>
+	</TerrainDataEntry>
+	<TerrainDataEntry>
+		<CubeType>81</CubeType>
+		<Name>CreativeWaterLarge</Name>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>38</TopTexture>
+		<SideTexture>38</SideTexture>
+		<BottomTexture>38</BottomTexture>
+		<GUITexture>38</GUITexture>
+		<Hidden>false</Hidden>
+		<isSolid>false</isSolid>
+		<isTransparent>false</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<hasObject>true</hasObject>
+		<hasEntity>false</hasEntity>
+		<AudioWalkType>Sand</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Voxel</tag>
+			<tag>Outdoor</tag>
+			<tag>Fluid</tag>
+		</tags>
+		
+		<Values>
+			<ValueEntry>
+				<Value>0</Value>
+				<Name>Creative Water 1x1</Name>
+				<IconName>Diamond Crystal</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>1</Value>
+				<Name>Creative Water 32x32</Name>
+				<IconName>Emerald Crystal</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>2</Value>
+				<Name>Creative Water 256x256</Name>
+				<IconName>Ruby Crystal</IconName>
+			</ValueEntry>
+		</Values>
+		
 	</TerrainDataEntry>
 	<TerrainDataEntry>
 		<CubeType>64</CubeType>
@@ -3598,7 +3644,7 @@
 		<CubeType>153</CubeType>
 		<Name>Biomass Growth</Name>
 		<IconName>Emeralds</IconName>
-		<ResearchValue>25</ResearchValue>
+		<ResearchValue>30</ResearchValue>
 		<Hardness>200</Hardness>
 		<DefaultValue>100</DefaultValue>
 		<LayerType>PrimaryTerrain</LayerType>
@@ -3829,7 +3875,8 @@
 			<tag>Voxel</tag>
 			<tag>Outdoor</tag>
 		</tags>
-	</TerrainDataEntry>		
+	</TerrainDataEntry>	
+	
 	<TerrainDataEntry>
 		<CubeType>162</CubeType>
 		<Name>Unknown Crystal</Name>
@@ -3839,7 +3886,7 @@
 				<Value>0</Value>
 				<Name>Diamond Crystal</Name>
 				<IconName>Diamond Crystal</IconName>
-				<ResearchValue>15</ResearchValue>
+				<ResearchValue>18</ResearchValue>
 			</ValueEntry>
 			<ValueEntry>
 				<Value>1</Value>
@@ -3897,7 +3944,284 @@
 		</tags>
 		<ResearchValue>5</ResearchValue>
 	</TerrainDataEntry>	
+			
+	<TerrainDataEntry>
+		<CubeType>163</CubeType>
+		<Name>Unknown Rocket Component</Name>
+		
+		<Values>
+			<ValueEntry>
+				<Value>0</Value>
+				<Name>Rocket Framework</Name>
+				<IconName>Rocket Framework</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>1</Value>
+				<Name>Basic Rocket Engine</Name>
+				<IconName>Basic Rocket Engine</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>2</Value>
+				<Name>Basic Fuel Tank</Name>
+				<IconName>Basic Fuel Tank</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>3</Value>
+				<Name>Basic Rocket Stabiliser</Name>
+				<IconName>Basic Rocket Stabiliser</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>4</Value>
+				<Name>Basic Rocket Cargo Hold</Name>
+				<IconName>Basic Rocket Cargo Hold</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>5</Value>
+				<Name>Basic Rocket SRB</Name>
+				<IconName>Basic Rocket SRB</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>6</Value>
+				<Name>Basic Rocket Nosecone</Name>
+				<IconName>Basic Rocket Nosecone</IconName>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>7</Value>
+				<Name>Basic Rocket Fin</Name>
+				<IconName>Basic Rocket Fin</IconName>
+			</ValueEntry>
+		</Values>
+		
+		<DefaultValue>0</DefaultValue>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>235</TopTexture>
+		<SideTexture>235</SideTexture>
+		<BottomTexture>235</BottomTexture>
+		<GUITexture>235</GUITexture>
+		<isSolid>false</isSolid>
+		<isTransparent>true</isTransparent>
+		<isHollow>true</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<isColorised>false</isColorised>
+		<isPaintable>false</isPaintable>
+		<hasObject>true</hasObject>
+		<hasEntity>false</hasEntity>
+		<AudioWalkType>Dirt</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Metal</tag>
+			<tag>Outdoor</tag>
+		</tags>
+		<ResearchValue>5</ResearchValue>
+	</TerrainDataEntry>	
+	<!--
+	<TerrainDataEntry>
+		<CubeType>164</CubeType>
+		<Name>LaunchPad</Name>
+		<IconName>Teleporter</IconName>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>192</TopTexture>
+		<SideTexture>192</SideTexture>
+		<BottomTexture>192</BottomTexture>
+		<GUITexture>192</GUITexture>
+		<isSolid>false</isSolid>
+		<isTransparent>true</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<hasObject>false</hasObject>
+		<hasEntity>false</hasEntity>
+		<Category>Machine</Category>
+		<AudioWalkType>Metal</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Machinery</tag>
+			<tag>Outdoor</tag>
+		</tags>
+	</TerrainDataEntry>-->
 	
+	<TerrainDataEntry>
+		<CubeType>164</CubeType>
+		<Name>LaunchPad</Name>
+		<ResearchValue>2</ResearchValue>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>72</TopTexture>
+		<SideTexture>147</SideTexture>
+		<BottomTexture>147</BottomTexture>
+		<GUITexture>199</GUITexture>
+		<isSolid>true</isSolid>
+		<isTransparent>false</isTransparent>
+		<isHollow>false</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<hasObject>false</hasObject>
+		<hasEntity>true</hasEntity>
+		<AudioWalkType>Concrete</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Machinery</tag>
+			<tag>Outdoor</tag>
+		</tags>
+	</TerrainDataEntry>	
+	
+	<TerrainDataEntry>
+		<CubeType>165</CubeType>
+		<Name>Unknown Plant</Name>
+		
+		<Values>
+			<ValueEntry>
+				<Value>0</Value>
+				<Name>Orange GlowPod</Name>
+				<IconName>Orange GlowPod</IconName>
+				<ResearchValue>2</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>1</Value>
+				<Name>Blue GlowPod</Name>
+				<IconName>Blue GlowPod</IconName>
+				<ResearchValue>4</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>2</Value>
+				<Name>Green GlowPod</Name>
+				<IconName>Green GlowPod</IconName>
+				<ResearchValue>2</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>3</Value>
+				<Name>Purple GlowPod</Name>
+				<IconName>Purple GlowPod</IconName>
+				<ResearchValue>3</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>4</Value>
+				<Name>GlowShroom</Name>
+				<IconName>GlowShroom</IconName>
+				<ResearchValue>2</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>5</Value>
+				<Name>BaubleBerry</Name>
+				<IconName>BaubleBerry</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			
+			<ValueEntry>
+				<Value>11</Value>
+				<Name>Cold Cavern Flora 1</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>12</Value>
+				<Name>Cold Cavern Flora 2</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>13</Value>
+				<Name>Cold Cavern Flora 3</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>14</Value>
+				<Name>Cold Cavern Flora 4</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>15</Value>
+				<Name>Cold Cavern Flora 5</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>16</Value>
+				<Name>Cold Cavern Flora 6</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>17</Value>
+				<Name>Cold Cavern Flora 7</Name>
+				<IconName>Cold Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			
+			<ValueEntry>
+				<Value>21</Value>
+				<Name>Toxic Cavern Flora 1</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>22</Value>
+				<Name>Toxic Cavern Flora 2</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>23</Value>
+				<Name>Toxic Cavern Flora 3</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>24</Value>
+				<Name>Toxic Cavern Flora 4</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>25</Value>
+				<Name>Toxic Cavern Flora 5</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>26</Value>
+				<Name>Toxic Cavern Flora 6</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			<ValueEntry>
+				<Value>27</Value>
+				<Name>Toxic Cavern Flora 7</Name>
+				<IconName>Toxic Cavern Flora</IconName>
+				<ResearchValue>1</ResearchValue>
+			</ValueEntry>
+			
+		</Values>
+		
+		<DefaultValue>0</DefaultValue>
+		<LayerType>PrimaryTerrain</LayerType>
+		<TopTexture>235</TopTexture>
+		<SideTexture>235</SideTexture>
+		<BottomTexture>235</BottomTexture>
+		<GUITexture>235</GUITexture>
+		<isSolid>false</isSolid>
+		<isTransparent>true</isTransparent>
+		<isHollow>true</isHollow>
+		<isGlass>false</isGlass>
+		<isPassable>false</isPassable>
+		<isColorised>false</isColorised>
+		<isPaintable>false</isPaintable>
+		<hasObject>true</hasObject>
+		<hasEntity>true</hasEntity>
+		<AudioWalkType>Dirt</AudioWalkType>
+		<AudioBuildType>Dirt</AudioBuildType>
+		<AudioDestroyType>None</AudioDestroyType>
+		<tags>
+			<tag>Ore</tag>
+			<tag>Outdoor</tag>
+		</tags>
+		<ResearchValue>5</ResearchValue>
+</TerrainDataEntry>	
 <TerrainDataEntry>
 		<CubeType>199</CubeType>
 		<Name>Rough Hewn Rock</Name>
@@ -3936,13 +4260,13 @@
 				<Value>639</Value>
 				<Name>Chilled Cavern Stone</Name>
 				<IconName>Rough Hewn Rock</IconName>
-				<ResearchValue>20</ResearchValue>
+				<ResearchValue>25</ResearchValue>
 			</ValueEntry>
 			<ValueEntry>
 				<Value>1782</Value>
 				<Name>Toxic Cavern Stone</Name>
 				<IconName>Rough Hewn Rock</IconName>
-				<ResearchValue>20</ResearchValue>
+				<ResearchValue>35</ResearchValue>
 			</ValueEntry>
 		</Values>		
 		<DefaultValue>4095</DefaultValue>

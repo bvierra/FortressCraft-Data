@@ -286,6 +286,17 @@
 	</ItemEntry>
 	
 	<ItemEntry>
+		<ItemID>201</ItemID>
+		<Name>Crystal Cutter Head</Name>
+		<Type>ItemDurability</Type>	
+		<Object>DrillMotor</Object>
+		<Sprite>Magnetic Drill Motor</Sprite>
+		<!-- Atlas optional -->
+		<MaxDurability>5000</MaxDurability>
+		<Category>MachineUpgrade</Category>
+	</ItemEntry>
+	
+	<ItemEntry>
 		<ItemID>250</ItemID>
 		<Name>Location Marker</Name>
 		<Type>ItemLocation</Type>	

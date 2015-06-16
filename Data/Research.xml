@@ -53,16 +53,19 @@
 		<ResearchCost>5</ResearchCost>
 		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
 		<PostDescription>Now available : Basic Drill Motors, Machine Components</PostDescription>
+		
+		<!-- No longer requires the lab - the player simply can't get enough bars smelter to make this happen -->
+		<!--
 		<ProjectItemRequirements>
 			<Requirement>
 				<Name>Basic Experimental Pod</Name>
 				<Amount>10</Amount>
 			</Requirement>
-		</ProjectItemRequirements>
+		</ProjectItemRequirements>-->
 	</ResearchDataEntry>
 	<ResearchDataEntry>
 		<Key>mining upgrade 2</Key>
-		<Name>Basic Mining Upgrades II</Name>
+		<Name>Basic Miner Upgrades II</Name>
 		<IconName>Enhanced Drill Motor</IconName>
 		<ResearchCost>5</ResearchCost>
 		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
@@ -73,7 +76,7 @@
 		
 		<ProjectItemRequirements>
 			<Requirement>
-				<Name>Simplified Experimental Pod</Name>
+				<Name>Basic Experimental Pod</Name>
 				<Amount>10</Amount>
 			</Requirement>
 		</ProjectItemRequirements>
@@ -81,7 +84,7 @@
 	</ResearchDataEntry>
 	<ResearchDataEntry>
 		<Key>mining upgrade 3</Key>
-		<Name>Intermediate Mining Upgrades I</Name>
+		<Name>Intermediate Miner Upgrades I</Name>
 		<IconName>Enhanced Drill Motor</IconName>
 		<ResearchCost>5</ResearchCost>
 		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
@@ -92,11 +95,11 @@
 		
 		<ProjectItemRequirements>
 			<Requirement>
-				<Name>Intermediate Experimental Pod</Name>
+				<Name>Simplified Experimental Pod</Name>
 				<Amount>15</Amount>
 			</Requirement>
 			<Requirement>
-				<Name>Simplified Experimental Pod</Name>
+				<Name>Basic Experimental Pod</Name>
 			<Amount>5</Amount>
 			</Requirement>
 
@@ -105,7 +108,7 @@
 	</ResearchDataEntry>
 		<ResearchDataEntry>
 		<Key>mining upgrade 4</Key>
-		<Name>Intermediate Mining Upgrades II</Name>
+		<Name>Intermediate Miner Upgrades II</Name>
 		<IconName>Enhanced Drill Motor</IconName>
 		<ResearchCost>5</ResearchCost>
 		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
@@ -132,8 +135,8 @@
 	</ResearchDataEntry>
 	<ResearchDataEntry>
 		<Key>mining upgrade 5</Key>
-		<Name>Advanced Mining Upgrades</Name>
-		<IconName>Enhanced Drill Motor</IconName>
+		<Name>Advanced Miner Upgrades</Name>
+		<IconName>Magnetic Drill Motor</IconName>
 		<ResearchCost>5</ResearchCost>
 		<PreDescription>New tech can be leveraged to improve the rate at which you can collect Ore.</PreDescription>
 		<PostDescription>Now available : AntiMatter Drill Motors, T3 Forced Induction Upgrade.</PostDescription>
@@ -197,7 +200,7 @@
 	<ResearchDataEntry>
 		<Key>alloys</Key>
 		<Name>Metal Alloys</Name>
-		<IconName>Antimatter Drill Motor</IconName>
+		<IconName>Titanium Bar</IconName>
 		<ResearchCost>15</ResearchCost>
 		<PreDescription>Using local metals it should be possible to create higher grade steel for improved equipment quality.</PreDescription>
 		<PostDescription>By combining Iron and Nickel, we can create a low-grade steel. Perhaps with future ores we can create even better alloys.</PostDescription>
